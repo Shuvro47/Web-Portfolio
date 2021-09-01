@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX and link-button</title>
+    <style>
+        .half{
+            width: 40%;
+            float: left;
+            margin-left: 5%;
+            padding-left: 2%;
+        }
+        .color{
+            color: orangered;
+        }
+        .box{
+            box-shadow: 10px 10px 40px grey;
+            border-radius: 5px;
+            height: 50%;
+        }
+        #full{
+            border-left: 7px solid;
+            border-image: linear-gradient(lightsalmon, tomato);
+            border-image-slice: 1;
+        }
+        #baby{
+            border-left: 7px solid;
+            border-image: linear-gradient(blue, cyan);
+            border-image-slice: 1;
+        }
+        .hi{
+            font-weight: 900;
+            text-align: center;
+            color: tomato;
+        }
+
+
+        .link-button{
+            text-decoration: none;
+            background-image: linear-gradient(45deg, lightsalmon, tomato);
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: white;
+            font-weight: 700;
+            
+        }
+        section{
+            padding-bottom: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="hi">WELCOME TO BOX HTML</h1>
+    <section>
+        <div id="full" class="half box">
+            <h1>BOX STYLE</h1>
+            <h3 class="color">Codes of box style</h3>
+            <p>Hello welcome</p>
+        </div>
+        <div id="baby" class="half box">
+            <h1>BOX STYLE</h1>
+            <h3 class="color">Codes of box style</h3>
+            <p>Hello welcome</p>
+        </div>
+      
+    </section>
+    <section>
+        <div class="half">
+        <h1>Go and visit youtube</h1>
+        <a target="_blank" class="link-button" href="https://www.youtube.com/">CLICK HERE</a>
+    </div>
+    </section>
+</body>
+</html>
